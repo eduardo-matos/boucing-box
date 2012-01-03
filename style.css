@@ -1,0 +1,31 @@
+body
+{	
+	background:black	;
+}
+
+#pp
+{
+	background:#dbc900;
+	border: 3px solid #faf298;
+	width: 200px;
+	height:55px;
+	position: absolute;
+	top:0px;
+	left: 50%;
+	margin-left: -100px;
+	border-radius: 3px;
+	
+	-webkit-transition: all .175s ease-in-out;
+	-moz-transition: all .175s ease-in-out;
+	transition: all .175s ease-in-out;
+}
+
+#pp.bottom
+{
+	top: 20px;
+}
+
+#pp.tall
+{
+	height: 200px;
+}
